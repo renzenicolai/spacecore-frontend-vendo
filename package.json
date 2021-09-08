@@ -1,0 +1,20 @@
+{
+  "name": "spacecore-frontend-vendo",
+  "version": "1.0.0",
+  "description": "Device specific client for Spacecore: vendo vending machine",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/electron/dist/electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renze Nicolai",
+  "license": "GPLv3",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "electron": "^8.2.0",
+    "serialport": "^8.0.7",
+    "uuid": "^7.0.3",
+    "ws": "^7.2.3",
+    "yargs": "^15.3.1"
+  }
+}

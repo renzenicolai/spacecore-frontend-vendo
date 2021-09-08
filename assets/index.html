@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Blikjesautomaat</title>
+	<link rel="stylesheet" href="style.css">
+	
+	<script>
+		const electron = require('electron');
+		electron.ipcRenderer.on('message', (event, arg) => {
+			arg = arg.replace("\n","<br />");
+			console.log("Message", arg);
+			document.getElementById("message").innerHTML = arg;
+		});
+	</script>
+</head>
+
+<body>
+	<div class="vendoContainer" id="message">Application is starting...</div>
+	<script src="script.js"></script>
+</body>
+</html>

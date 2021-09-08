@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "HD44780";
+	src: url("hd44780.woff2") format("woff2");
+}
+
+html, body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: none;
+	/*background-image: url('background.svg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right bottom; */
+}
+
+.vendoContainer {
+	font-family: "HD44780";
+	font-size: 60px;
+	line-height: 63px;
+	position: absolute;
+	background-color: #000000;
+	color: #FFFF00;
+	left: 0px;
+	top: 110px;
+	width: 710px;
+	height: 200px;
+	padding-top: 20px;
+}

@@ -1,0 +1,17 @@
+{
+	"server": "ws://10.42.8.88:8000",
+	"username": "candy",
+	"password": null,
+	"location": {
+		"prefix": "vendo"
+	},
+	"hardware": {
+		"devices": {
+			"drawer": [1],
+			"coin": [2],
+			"frontpanel": [3],
+			"fridge": [4]
+		},
+		"motors": 5
+	}
+}
